@@ -1,0 +1,22 @@
+{
+  "name": "assign-ui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite --port 3000",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "navigo": "^8.11.1",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.6",
+    "vite": "^4.1.0"
+  },
+  "dependencies": {
+    "axios": "^1.3.2",
+    "vite-jsconfig-paths": "^2.0.1"
+  }
+}

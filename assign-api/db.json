@@ -1,0 +1,41 @@
+{
+  "projects": [
+    {
+      "name": "Dự án 1 edit",
+      "img": "https://picums/400/400",
+      "id": "3"
+    },
+    {
+      "name": "dự án 2",
+      "img": "https://picsum.photos/400/400",
+      "id": "RvD8u-h",
+      "categoryProjectId": "1"
+    },
+    {
+      "name": "Dự án 3",
+      "img": "https://picsum.photos/400/400",
+      "id": "24-Qnig",
+      "categoryProjectId": "2"
+    }
+  ],
+  "categoryProjects": [
+    {
+      "id": "1",
+      "name": "Category A"
+    },
+    {
+      "id": "2",
+      "name": "Category B"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "tilte": "Title 1",
+      "content": "Noi dung 1",
+      "image_title": "image 1",
+      "listImgs": [],
+      "category_post_id": 1
+    }
+  ]
+}
