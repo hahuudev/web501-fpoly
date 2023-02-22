@@ -1,0 +1,11 @@
+dự án: 
+- Tên
+- Mô tả: string,
+- Avatar: String
+- Album-image: []
+- Link github: string
+- Link Preview: string
+- Thời gian làm: string
+- Feedback: {}
+- Technologry/tag: string [html, css,...]
+- Category: 

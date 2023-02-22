@@ -15,12 +15,6 @@ function Header() {
                                 >
                                     Trở về website
                                 </a>
-                                <a
-                                    class="md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0"
-                                    href="/admin/dashboard"
-                                >
-                                    DASHBOARD
-                                </a>
                             </div>
                             
                         </div>
@@ -32,21 +26,38 @@ function Header() {
                     <ul class="md:flex-col md:min-w-full flex flex-col list-none">
                         <li class="items-center">
                             <a
-                                href="./dashboard.html"
-                                class="text-xs uppercase py-3 font-bold block text-pink-500 hover:text-pink-600"
-                            >
-                                <i class="fas fa-tv mr-2 text-sm opacity-75"></i>
-                                Dashboard
-                            </a>
-                        </li>
-
-                        <li class="items-center">
-                            <a
                                 href="/admin/projects"
                                 class="text-xs uppercase py-3 font-bold block text-blueGray-700 hover:text-blueGray-500"
                             >
                                 <i class="fas fa-tools mr-2 text-sm text-blueGray-300"></i>
                                 Projects
+                            </a>
+                        </li>
+                        <li class="items-center">
+                            <a
+                                href="/admin/categories"
+                                class="text-xs uppercase py-3 font-bold block text-blueGray-700 hover:text-blueGray-500"
+                            >
+                                <i class="fas fa-tools mr-2 text-sm text-blueGray-300"></i>
+                                Category Project
+                            </a>
+                        </li>
+                        <li class="items-center">
+                            <a
+                                href="/admin/posts"
+                                class="text-xs uppercase py-3 font-bold block text-blueGray-700 hover:text-blueGray-500"
+                            >
+                                <i class="fas fa-tools mr-2 text-sm text-blueGray-300"></i>
+                                Posts
+                            </a>
+                        </li>
+                        <li class="items-center">
+                            <a
+                                href="/admin/categories-post"
+                                class="text-xs uppercase py-3 font-bold block text-blueGray-700 hover:text-blueGray-500"
+                            >
+                                <i class="fas fa-tools mr-2 text-sm text-blueGray-300"></i>
+                                Category Post
                             </a>
                         </li>
                     </ul>
@@ -76,28 +87,20 @@ function Header() {
                     <ul class="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
                         <li class="items-center">
                             <a
-                                href="../profile.html"
+                                href="/admin/menus"
                                 class="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
                             >
                                 <i class="fas fa-user-circle text-blueGray-300 mr-2 text-sm"></i>
-                                Profile Page
+                                Menu pages
                             </a>
                         </li>
-                    </ul>
-
-                    <hr class="my-4 md:min-w-full" />
-                    <h6 class="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline">
-                        Documentation
-                    </h6>
-                    <ul class="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
-                        <li class="inline-flex">
+                        <li class="items-center">
                             <a
-                                href="https://www.creative-tim.com/learning-lab/tailwind/js/colors/notus"
-                                target="_blank"
-                                class="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
+                                href="/admin/profile"
+                                class="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
                             >
-                                <i class="fas fa-paint-brush mr-2 text-blueGray-300 text-base"></i>
-                                Styles
+                                <i class="fas fa-user-circle text-blueGray-300 mr-2 text-sm"></i>
+                                Profile author
                             </a>
                         </li>
                     </ul>

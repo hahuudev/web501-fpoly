@@ -22,32 +22,36 @@ const debounce = (fn, timeout = 100) => {
     };
 };
 
-const render = (component, { layout = "DefaultLayout" }) => {
+const render = (component, { layout }) => {
     if (layout === "DefaultLayout") {
         document.getElementById("root").innerHTML = DefaultLayout();
         const app = document.getElementById("app");
-        
+
         app.innerHTML = component();
 
         rootComponent = component;
         rootContainer = app;
-    }else if(layout === 'AdminLayout'){
+    } else if (layout === "AdminLayout") {
         document.getElementById("root").innerHTML = AdminLayout();
         const app = document.getElementById("app");
-        
+
         app.innerHTML = component();
 
         rootComponent = component;
         rootContainer = app;
     } else {
         const app = document.getElementById("root");
-        
+
         app.innerHTML = component();
 
         rootComponent = component;
         rootContainer = app;
     }
 
+    // container.innerHTML = component();
+
+    // rootComponent = component;
+    // rootContainer = container;
 
     effects.forEach((effect) => {
         effect.cb();
@@ -122,7 +126,7 @@ const useEffect = (cb, deps) => {
     currentEffectOrder++;
 };
 
-router.on("/*", () => {}, {
+router.on("/*", (e) => {}, {
     before(done, match) {
         states = [];
         currentStateOrder = 0;

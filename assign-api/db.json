@@ -1,41 +1,150 @@
 {
-  "projects": [
-    {
-      "name": "Dự án 1 edit",
-      "img": "https://picums/400/400",
-      "id": "3"
+    "user": [],
+    "projects": [
+        {
+            "id": "1",
+            "name": "hahuublog",
+            "avatar": "https://res.cloudinary.com/dssl3epj0/image/upload/v1676864667/web501/Screenshot_263_pvhdv0.png",
+            "workTime": "1 tháng",
+            "tags": ["html", "css", "reactjs", "nodejs"],
+            "github": "github",
+            "preview": "https://hahuudev.online",
+            "listImgs": [
+                "https://res.cloudinary.com/dssl3epj0/image/upload/v1676864667/web501/Screenshot_263_pvhdv0.png",
+                "https://res.cloudinary.com/dssl3epj0/image/upload/v1676864666/web501/Screenshot_266_g6djku.png",
+                "https://res.cloudinary.com/dssl3epj0/image/upload/v1676864666/web501/Screenshot_267_fh0x3s.png",
+                "https://res.cloudinary.com/dssl3epj0/image/upload/v1676864666/web501/Screenshot_265_xihggz.png"
+            ],
+            "description": "Đây là ứng dụng tâm huyết tôi tự viết trong quá trình tự học tập nhằm mục đích ôn tập các kiến thức chia sẻ các bài viết về kĩ năng lập trình mà tôi biết. Phần Fe tôi viết bằng ReactJs, phần BE viết bằng NodeJs và lưu trữ tại mongodb Altas. Mong mọi người đi qua để lại nhận xét để tôi phát triển thêm",
+            "categoriesId": "1"
+        },
+        {
+            "id": "2",
+            "name": "Dự án HPHIM NodeJs",
+            "avatar": "https://res.cloudinary.com/dssl3epj0/image/upload/v1676864667/web501/Screenshot_264_xukzrb.png",
+            "listImgs": [
+                "https://res.cloudinary.com/dssl3epj0/image/upload/v1676864667/web501/Screenshot_264_xukzrb.png"
+            ],
+            "description": "Đây là dự án tôi tự viết sau khoảng 1 tháng tự học NodeJs với tài liệu trên google và youtube, tôi sủ dụng các công nghệ Express, Mongodb để viết RestAPI, FireBase, ReactJs, TaiwindCss để viết UI,...",
+            "tags": ["Nodejs", "html", "css"],
+            "workTime": "2 tuần",
+            "github": "https://github.com/hahuudev-02/hPhim-api",
+            "preview": "https://hphim.vercel.app",
+            "feedbacks": [
+                {
+                    "email": "huu@gmail.com",
+                    "content": "Web đẹp quá"
+                }
+            ],
+            "categoriesId": 3
+        },
+        {
+            "id": "4",
+            "name": "Dự án Zing-mp3 clone vanillaJs",
+            "avatar": "https://res.cloudinary.com/dssl3epj0/image/upload/v1676866365/web501/Screenshot_270_cpwe8z.png",
+            "workTime": "1 tuần",
+            "tags": ["html", "css", "javascription"],
+            "github": "https://github.com/hahuudev-02/huu-mp3.git",
+            "preview": "https://hahuudev-02.github.io/huu-mp3/",
+            "listImgs": [
+                "https://res.cloudinary.com/dssl3epj0/image/upload/v1676866365/web501/Screenshot_270_cpwe8z.png",
+                "https://res.cloudinary.com/dssl3epj0/image/upload/v1676866365/web501/Screenshot_272_ro34to.png",
+                "https://res.cloudinary.com/dssl3epj0/image/upload/v1676866365/web501/Screenshot_271_bsg3j9.png"
+            ],
+            "description": "Đây là dự án đầu tay tôi tự viết để tổng ôn kiến thức về HTML, CSS và Javascript. Tôi tự tay clone lại các chức năng cơ bản của zing-mp3 như phát nhạc, tua, next và prev, phát ngẫu nhiên,... Mong mọi người đi qua để lại nhận xét và tham khảo để mình sửa sang lại đẹp hơn.",
+            "categoriesId": 4
+        }
+    ],
+    "categories": [
+        {
+            "id": "1",
+            "name": "FullStack",
+            "avatar": "https://res.cloudinary.com/dssl3epj0/image/upload/v1676865327/web501/image1-2_s3dzor.jpg"
+        },
+        {
+            "id": "2",
+            "name": "ReactJs",
+            "avatar": "https://res.cloudinary.com/dssl3epj0/image/upload/v1677038113/web-501/te4hepiiawtrstjmeisd.png"
+        },
+        {
+            "id": "3",
+            "avatar": "https://res.cloudinary.com/dssl3epj0/image/upload/v1676865523/web501/nodejs_1_ffxd21.png",
+            "name": "NODEJS"
+        },
+        {
+            "id": "4",
+            "name": "VanillaJs",
+            "avatar": "https://blog.logrocket.com/wp-content/uploads/2022/02/how-to-build-file-upload-service-vanilla-javascript.png"
+        }
+    ],
+    "menus": [
+        {
+            "id": 1,
+            "name": "Home",
+            "path": "/"
+        },
+        {
+            "id": 2,
+            "name": "Giới thiệu",
+            "path": "/about"
+        },
+        {
+            "id": 3,
+            "name": "Projects",
+            "path": "/projects"
+        },
+        {
+            "id": 4,
+            "name": "Admin",
+            "path": "/admin/projects"
+        }
+    ],
+    "profile": {
+        "name": "Nguyễn Hà Hữu",
+        "avatar": "https://res.cloudinary.com/dssl3epj0/image/upload/v1666975659/hahuublog/a1_xwruaf.jpg",
+        "phone": "113 114",
+        "github": "https://github.com/hahuudev",
+        "email": "huu@gmail.com",
+        "facebook": "https://www.facebook.com/huu.has.3/",
+        "location": "tam dương",
+        "listImgs": ["undefined"],
+        "skills": ["Html", "Css", "Javascription", "ReactJs", "Sql", "Mongoodb", "TailwindCss", "Material Ui"],
+        "description": "Hiện tôi đang theo học và là sinh viên kì 5 trường cao đẳng fpt polytecnic. Tôi mong muốn được học tập và tiếp thu kinh nghiệm thực tế để trở thành một developer chuyên nghiệp."
     },
-    {
-      "name": "dự án 2",
-      "img": "https://picsum.photos/400/400",
-      "id": "RvD8u-h",
-      "categoryProjectId": "1"
-    },
-    {
-      "name": "Dự án 3",
-      "img": "https://picsum.photos/400/400",
-      "id": "24-Qnig",
-      "categoryProjectId": "2"
-    }
-  ],
-  "categoryProjects": [
-    {
-      "id": "1",
-      "name": "Category A"
-    },
-    {
-      "id": "2",
-      "name": "Category B"
-    }
-  ],
-  "posts": [
-    {
-      "id": "1",
-      "tilte": "Title 1",
-      "content": "Noi dung 1",
-      "image_title": "image 1",
-      "listImgs": [],
-      "category_post_id": 1
-    }
-  ]
+    "posts": [
+        {
+            "id": 1,
+            "title": "Tôi tự tạo project như thế nào",
+            "avatar": "https://res.cloudinary.com/dssl3epj0/image/upload/v1666975659/hahuublog/a1_xwruaf.jpg",
+            "description": "Đây là dự án tôi tự viết sau khoảng 1 tháng tự học NodeJs với tài liệu trên google và youtube, tôi sủ dụng các công nghệ Express, Mongodb để viết RestAPI, FireBase, ReactJs, TaiwindCss để viết UI,...",
+            "content": "Web đẹp quá vaayk",
+            "categories_postId": "2"
+        },
+        {
+            "id": 2,
+            "title": "Baif post test",
+            "avatar": "https://res.cloudinary.com/dssl3epj0/image/upload/v1666975659/hahuublog/a1_xwruaf.jpg",
+            "description": "Đây là dự án tôi tự viết sau khoảng 1 tháng tự học NodeJs với tài liệu trên google và youtube, tôi sủ dụng các công nghệ Express, Mongodb để viết RestAPI, FireBase, ReactJs, TaiwindCss để viết UI,...",
+            "content": "Web đẹp quá",
+            "categories_postId": 1
+        },
+        {
+            "title": "Fullstack là gì? Cần kỹ năng gì để trở thành fullstack developer?",
+            "avatar": "https://res.cloudinary.com/dssl3epj0/image/upload/v1677039320/web-501/pyordxwvujwixngwnyii.png",
+            "description": "Chắc hẳn hầu hết các bạn trong giới lập trình đều đã ít nhất một lần nghe đến từ “fullstack”. Tuy nhiên vẫn còn nhiều người hiểu lầm về khái niệm đang hot này. Cùng đọc bài viết để biết fullstack là gì nhé!",
+            "content": "1. Fullstack là gì? Thế nào là lập trình viên fullstack?\nlap-trinh-vien-full-stack-la-gi (1).jpg\nFullstack là gì? Thế nào là lập trình viên fullstack?\n\nKhái niệm fullstack là gì?\nXét trong lĩnh vực công nghệ, nhắc tới fullstack chính là nói đến hàng loạt các công nghệ cần có để có thể hoàn thiện được một dự án. Fullstack developer (lập trình viên fullstack) chính là những người có khả năng làm việc cả trên back-end, front-end lẫn database, hệ thống, bảo mật, server,...\n\nThế nào là lập trình viên Fullstack?\nTuy nhiên, nói như vậy không có nghĩa là một lập trình viên fullstack cần phải giỏi trong tất cả các lĩnh vực trên mà họ chỉ là những người hiểu rõ nhất về những công nghệ cần có cho dự án và các công việc mà mình đang làm. Điều đặc biệt là một lập trình viên fullstack hoàn toàn có khả năng update và học hỏi thêm nhiều kiến thức, công nghệ khác khi cần thiết.\n\nCó thể bạn chưa biết, trước năm 2010, rất ít người sử dụng và biết đến khái niệm fullstack trong giới công nghệ thông tin. Nguồn gốc của việc từ này được sử dụng rộng rãi và ưa chuộng là bởi Facebook đưa ra thông báo rằng họ sẽ chỉ tuyển dụng fullstack developer trong sự kiện mã nguồn mở OSCON ((Open Source Software Conference) năm 2012, chính từ đấy, khái niệm fullstack mới dần dần trở nên thông dụng và ngày một được ưa chuộng nhiều hơn.\n\nCông việc của một lập trình viên fullstack là gì?\nFull-stack-la-gi (1).jpg\nCông việc của một lập trình viên fullstack là gì?\n\nThông thường, một lập trình viên fullstack sẽ làm những công việc như:\n\nĐưa ra các giải pháp, khuyến nghị để xây dựng cấu trúc cũng như các ứng dụng theo yêu cầu.\n\nQuản lý các dự án, làm việc với các stakeholder\n\nViết code backend với nhiều ngôn ngữ lập trình khác như Java, PHP, Python…\n\nSáng tạo và làm việc trên Front-end, sử dụng nhiều html, CSS, JavaScript,..\n\nKhởi tạo và phát triển cơ sở dữ liệu\n\nXây dựng các API\n\nKiểm tra quá trình thử nghiệm ứng dụng\n\nNâng cấp performance của các ứng dụng\n\nTham gia vào quá trình xây dựng các tài liệu kỹ thuật. ….\n\n2. Kỹ năng cần có của lập trình viên fullstack là gì?\nNhư vậy, chúng ta có thể hiểu rằng để trở thành một lập trình viên fullstack thì sẽ cần có rất nhiều kỹ năng chuyên môn, các kỹ năng đó cụ thể là gì?co-hoi-rong-mo-danh-cho-fullstack-developer-63719683405.9961 (1).jpg\nKỹ năng cần có của lập trình viên fullstack là gì?\n\nNgôn ngữ lập trình\nMột số ngôn ngữ lập trình cơ bản như PHP, C#, Python bạn cần phải nắm rõ. Bởi bạn sẽ phải kiểm tra các đối tượng đã được xây dựng từ ngôn ngữ lập trình trong dự án. Ngoài ra, bạn cũng cần học thêm một số ngôn ngữ khác để hỗ trợ cho công việc.",
+            "categories_postId": "2",
+            "id": 3
+        }
+    ],
+    "categories_post": [
+        {
+            "id": 1,
+            "name": "ReactJs"
+        },
+        {
+            "id": 2,
+            "name": "NodeJS"
+        }
+    ]
 }
