@@ -8,7 +8,6 @@ import "toastr/build/toastr.css";
 
 import Login from "~/pages/Login";
 import EditProject from "./src/admin/EditProject";
-import AdminProjects from "./src/admin/projects";
 import NotFound from "./src/compoments/NotFound";
 import { render, router } from "./src/libs";
 import About from "./src/pages/About";
@@ -32,6 +31,7 @@ import EditPost from "~/admin/EditPost";
 import CategoryPost from "~/admin/CategoryPost";
 import AddCategoryPost from "~/admin/AddCategoryPost";
 import EditCategoryPost from "~/admin/EditCategoryPost";
+import AdminProjects from "~/admin/Projects";
 
 // Admin
 
