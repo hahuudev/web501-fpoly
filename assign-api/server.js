@@ -18,6 +18,7 @@ server.use("/", (req, res) => {
     res.json("hello word");
 });
 
-server.listen(8080, () => {
+const PORT = process.env.PORT || 8000
+server.listen(PORT, () => {
     console.log("JSON Server is running");
 });
