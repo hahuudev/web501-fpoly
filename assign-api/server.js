@@ -18,7 +18,10 @@ server.use("/", (req, res) => {
     res.json("hello word");
 });
 
-const PORT = process.env.PORT || 8000
+const PORT = process.env.PORT || 8000;
 server.listen(PORT, () => {
     console.log("JSON Server is running");
 });
+
+// Export the Server API
+module.exports = server;

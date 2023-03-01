@@ -2,7 +2,7 @@
     "name": "assign-api",
     "version": "1.0.0",
     "description": "",
-    "main": "server.cjs",
+    "main": "server.js",
     "scripts": {
         "start": "json-server-auth --watch db.json --port 8080",
         "dev": "nodemon server.js",
