@@ -4,9 +4,9 @@
     "description": "",
     "main": "server.js",
     "scripts": {
-        "start": "json-server-auth --watch db.json --port 8080",
+        "start": "node api/server.js",
+        "product": "json-server-auth --watch db.json --port 8080",
         "dev": "nodemon server.js",
-        "product": "node server.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
